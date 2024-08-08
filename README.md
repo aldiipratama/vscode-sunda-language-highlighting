@@ -1,6 +1,6 @@
-# jaksel-language-support for Visual Studio Code
+# sunda-language-highlighting for Visual Studio Code
 
-Visual Studio Code extension for supporting [jaksel-language](https://github.com/RioChndr/jaksel-language) coding experience.
+Visual Studio Code extension for highlighting [sunda-language](https://github.com/aldiipratama/sunda-language) coding experience.
 
 ## Features
 
@@ -10,13 +10,12 @@ Visual Studio Code extension for supporting [jaksel-language](https://github.com
 
 ## Code Snippet
 
-- Loop: `fomo`
-- Decision: `kalo`
-- Function declaration: `so` or `so about`
-- Asynchronous function declaration: `overthinking` or `ovt`
-- Error handling: `trust` or `issue`
+- Loop: `ti`
+- Decision: `lamun`
+- Function declaration: `ngeunaan` or `jadi ngeunaan`
+- Asynchronous function declaration: `ngemutan`
+- Error handling: `teu percaya`
 
 ## Preview
 
 ![preview](https://user-images.githubusercontent.com/19171729/196026510-8d945bab-8eb9-4ea7-a9af-1061e7a7d33b.gif)
-

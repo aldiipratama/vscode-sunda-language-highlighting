@@ -1,0 +1,27 @@
+{
+  "Loop": {
+    "prefix": ["ti"],
+    "body": ["ti ${1:variable} nepi ${2:last}", "\t$0", "geusan"],
+    "description": "A loop."
+  },
+  "Condition": {
+    "prefix": ["lamun"],
+    "body": ["lamun ${1:condition}", "\t$0", "geusan"],
+    "description": "Decision"
+  },
+  "Function declaration": {
+    "prefix": ["ngeunaan", "jadi ngeunaan"],
+    "body": ["jadi ngeunaan ${1:func}", "\t$0", "sakitu we"],
+    "description": "Function declaration"
+  },
+  "Async function declaration": {
+    "prefix": ["ngemutan"],
+    "body": ["ngemutan ${1:func}", "\t$0", "sakitu we"],
+    "description": "Asynchronous function declaration"
+  },
+  "Try Catch": {
+    "prefix": ["teu percaya"],
+    "body": ["teu percaya", "\t$1", "kacida", "\t$0", "geusan"],
+    "description": "Error handling"
+  }
+}

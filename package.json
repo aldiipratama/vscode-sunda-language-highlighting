@@ -1,48 +1,48 @@
 {
-  "name": "jaksel-language-support",
-  "displayName": "Jaksel Language Support",
-  "description": "Syntax highlighter, code snippets, code formatter for Jaksel Language",
-  "publisher": "ngupuk",
-  "version": "0.0.3",
+  "name": "sunda-language-support",
+  "displayName": "sunda Language Support",
+  "description": "Syntax highlighter, code snippets, code formatter for sunda Language",
+  "publisher": "aldiipratama",
+  "version": "0.0.2",
   "icon": "icon/logo.png",
   "main": "./extension.js",
   "engines": {
     "vscode": "^1.72.0"
   },
   "repository": {
-    "url": "https://github.com/ngupuk/vscode-jaksel-language-support"
+    "url": "https://github.com/aldiipratama/vscode-sunda-language-support"
   },
   "categories": [
     "Programming Languages"
   ],
   "activationEvents": [
-    "onLanguage:jaksel"
+    "onLanguage:sunda"
   ],
   "contributes": {
     "languages": [
       {
-        "id": "jaksel",
+        "id": "sunda",
         "aliases": [
-          "jaksel",
-          "jaksel"
+          "sunda",
+          "sunda"
         ],
         "extensions": [
-          ".jaksel"
+          ".sunda"
         ],
         "configuration": "./language-configuration.json"
       }
     ],
     "snippets": [
       {
-        "language": "jaksel",
-        "path": "./syntaxes/jaksel.snippets.json"
+        "language": "sunda",
+        "path": "./syntaxes/sunda.snippets.json"
       }
     ],
     "grammars": [
       {
-        "language": "jaksel",
-        "scopeName": "source.jaksel",
-        "path": "./syntaxes/jaksel.tmLanguage.json"
+        "language": "sunda",
+        "scopeName": "source.sunda",
+        "path": "./syntaxes/sunda.tmLanguage.json"
       }
     ]
   },

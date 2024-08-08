@@ -1,6 +1,6 @@
 # Change Log
 
-All notable changes to the "jaksel-language-support" extension will be documented in this file.
+All notable changes to the "sunda-language-highlighting" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
@@ -11,8 +11,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Syntax Highlight ✅
 - Code Formatter ✅
 - Code Snippet ✅
-  - Loop: `fomo`
-  - Decision: `kalo`
-  - Function declaration: `so` or `so about`
-  - Asynchronous function declaration: `overthinking` or `ovt`
-  - Error handling: `trust` or `issue`
+  - Loop: `ti`
+  - Decision: `lamun`
+  - Function declaration: `ngeunaan` or `jadi ngeunaan`
+  - Asynchronous function declaration: `ngemutan`
+  - Error handling: `teu percaya`
